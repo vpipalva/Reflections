@@ -1,0 +1,22 @@
+Vivek Pipalva 
+lesson_1_reflections
+
+1) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	It shows the part that were different in both file and eliminate the rest of the code. Which make easy to spot the bug and make changes to it. 
+ 2)  How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	It could help me to deconstruct change that have been made by mistake or not functioning properly. Also, I can walk back through different version of file anytime if anything went wrong. 
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+	Pros: You can choose when you thing it is critical to save, make fewer version or file and fewer commits to review. 
+Cons: You might forget, loose service, have a power outage. You may not be aware of the important points you need to mark. More storage space.
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+    With Git, you can work offline, make lots of little changes and then upload your work without having to be connected.  Google Docs is web based, so to be working in them is to be connected.  Git is programmer directed, so tracks changes among inter-related files.  
+5) How can you use the commands git log and git diff to view the history of files?
+Log will show me the history of commits to a document.  I can then choose the versions of 
+  the file that I want to compare to see what changed between them if I know what or where the issue
+ occurred.
+6) How might using version control make you more confident to make changes that could break something?
+ Having copies means that you can always go back to the version before you broke it, so I don't
+     need to fear losing data or ruining a program.
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+Building an online webpage resume and then a web based applications for classes. 
