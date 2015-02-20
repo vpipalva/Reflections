@@ -1,0 +1,17 @@
+Vivek Pipalva 
+1) What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repository, you are setting up Git to begin tracking all changes.  You need to do it because Git does not track every single file...you need to tell it which ones you want to track.  Then initializing it allows it to take a snap shot at the place you want to begin tracking.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area gives you a point in time and saves changes, but it doesn't actually store them yet.  That way you can make several changes, save them, and then store them together as a commit.  The repository gives you a chunk of changes that are stored.  Gives you a couple of areas to try out changes, save them but not make the actual changes yet.
+3) How can you use the staging area to make sure you have one commit per logical change?
+You can run a diff and then see which files have been modified.  Then you could make a separate commit for each one or even group a couple of them together.
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When two people are working on two different aspects of a program.  If you want to try something completely different without disrupting something that is already working.  If there is a file that many people have access to and are changing.
+Branches let you make changes, multiple ones over time, without disrupting the version that the other people have access to.
+5) How do the diagrams help you visualize the branch structure?
+ They show me how the other branches can progress independently of the one I'm working on and also how some of changes are not incorporated into the other branches if just committed to one branch.
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+In a merge the commits from one branch are blended into the commits from the branch that is checked out and then all the commits are preserved based on timestamp.  We represent it so that we can see the progression of how the versions changed...helps identify bugs and track where changes occurred.
+
+
