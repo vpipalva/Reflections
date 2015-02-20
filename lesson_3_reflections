@@ -1,0 +1,17 @@
+
+Vivek Pipalva 
+1) Why would you want to create a remote repository rather than keeping all your work local?
+Keeping it centrally allows multiple people to be working with the same code.  Also, allows me to access it from different computers and also allows me to have a saved copy in case something happens to my personal computer.
+2) Why might you want to always pull changes manually rather than having Git automatically stay
+Up-to-date with your remote repository?
+It allows you to keep the files on your personal computer independent from any changes that happen on Github.
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks make a copy of someone else's repository in your GitHub account - makes a new repository in your account with the same name.
+Clones copy a repository and all its commits to your home computer and makes a Git remote on your computer.
+Fork to copy something on GitHub...clone to move it to my computer to make changes.
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+Gives you a starting point from which to begin working offline.  You can work offline if you don't have internet access.  It gives you the point at which you began working.
+5) How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+Sending regular files or use one of the alternative system like Google or Dropbox. It would be easy to learn the system but hard to keep track of changes
+6) When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+When you don't have access to the master branch. 
